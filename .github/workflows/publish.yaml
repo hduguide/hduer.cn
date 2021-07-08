@@ -16,6 +16,7 @@ jobs:
       - name: Deploy
         run: |
           pwd
+          ls -la
           curl -X PUT "${{ secrets.URL }}" \
           -H "Authorization: ${{ secrets.BEARER }}" \
           -H "Content-Type: application/javascript" \
