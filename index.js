@@ -118,6 +118,11 @@ const config = {
           name: "毕业论文管理系统",
           desc: "hdu.co.cnki.net"
         },
+        {
+          url: "http://hyb.hdu.edu.cn",
+          name: "回音壁",
+          desc: "需校园网/VPN"
+        }
       ]
     },
     {
