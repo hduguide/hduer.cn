@@ -20,4 +20,4 @@ jobs:
           curl -X PUT "${{ secrets.URL }}" \
           -H "Authorization: ${{ secrets.BEARER }}" \
           -H "Content-Type: application/javascript" \
-          --data "@index.js"
+          --data-binary "@index.js"
