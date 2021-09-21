@@ -13,10 +13,6 @@ const config = {
       template: "https://www.baidu.com/s?wd=$s"
     },
     {
-      name: "谷 歌",
-      template: "https://www.google.com/search?q=$s"
-    },
-    {
       name: "必 应",
       template: "https://www.bing.com/search?q=$s"
     },
@@ -240,15 +236,10 @@ const config = {
           name: "助手期末福利",
           desc: "dl.hduhelp.com"
         },
-        {
-          url: "http://hdu.pp.ua/",
-          name: "HDU导航",
-          desc: "hdu.pp.ua"
-        },
       ]
     },
     {
-      name: "国内学术",
+      name: "学术研究",
       icon: "graduation cap",
       list: [
         {
@@ -293,87 +284,87 @@ const config = {
         },
       ]
     },
-    {
-      name: "境外学术",
-      icon: "graduation cap",
-      list: [
-        {
-          url: "https://scholar.google.cn",
-          name: "Google Scholar",
-          desc: "scholar.google.cn"
-        },
-        {
-          url: "http://chongbuluo.99lb.net",
-          name: "谷粉学术 镜像1",
-          desc: "chongbuluo.99lb.net"
-        },
-        {
-          url: "https://scholar.123admin.com",
-          name: "Glgoo学术 镜像2",
-          desc: "scholar.123admin.com"
-        },
-        {
-          url: "https://xueshu.soogle.top",
-          name: "Soogle学术 镜像3",
-          desc: "xueshu.soogle.top"
-        },
-        {
-          url: "https://sci-hub.se",
-          name: "Sci-Hub",
-          desc: "sci-hub.se"
-        },
-        {
-          url: "http://www.webofknowledge.com/",
-          name: "Web of Science",
-          desc: "www.webofknowledge.com"
-        },
-        {
-          url: "https://link.springer.com/",
-          name: "SpringerLink",
-          desc: "link.springer.com"
-        },
-        {
-          url: "https://ieeexplore.ieee.org/Xplore/home.jsp",
-          name: "IEEE Xplore",
-          desc: "ieeexplore.ieee.org"
-        },
-        {
-          url: "https://www.engineeringvillage.com/",
-          name: "Engineering Village",
-          desc: "engineeringvillage"
-        },
-        {
-          url: "https://dl.acm.org/",
-          name: "ACM Digital Library",
-          desc: "dl.acm.org"
-        },
-        {
-          url: "https://www.sciencedirect.com",
-          name: "ScienceDirect",
-          desc: "www.sciencedirect.com"
-        },
-        {
-          url: "https://onlinelibrary.wiley.com",
-          name: "Wiley Online Library",
-          desc: "onlinelibrary.wiley.com"
-        },
-        {
-          url: "https://www.tandfonline.com",
-          name: "Taylor & Francis Online",
-          desc: "www.tandfonline.com"
-        },
-        {
-          url: "https://journals.sagepub.com",
-          name: "SAGE Journals",
-          desc: "journals.sagepub.com"
-        },
-        {
-          url: "https://www.ncbi.nlm.nih.gov",
-          name: "NCBI",
-          desc: "www.ncbi.nlm.nih.gov"
-        },
-      ]
-    }
+    // {
+    //   name: "境外学术",
+    //   icon: "graduation cap",
+    //   list: [
+    //     {
+    //       url: "https://scholar.google.cn",
+    //       name: "Google Scholar",
+    //       desc: "scholar.google.cn"
+    //     },
+    //     {
+    //       url: "http://chongbuluo.99lb.net",
+    //       name: "谷粉学术 镜像1",
+    //       desc: "chongbuluo.99lb.net"
+    //     },
+    //     {
+    //       url: "https://scholar.123admin.com",
+    //       name: "Glgoo学术 镜像2",
+    //       desc: "scholar.123admin.com"
+    //     },
+    //     {
+    //       url: "https://xueshu.soogle.top",
+    //       name: "Soogle学术 镜像3",
+    //       desc: "xueshu.soogle.top"
+    //     },
+    //     {
+    //       url: "https://sci-hub.se",
+    //       name: "Sci-Hub",
+    //       desc: "sci-hub.se"
+    //     },
+    //     {
+    //       url: "http://www.webofknowledge.com/",
+    //       name: "Web of Science",
+    //       desc: "www.webofknowledge.com"
+    //     },
+    //     {
+    //       url: "https://link.springer.com/",
+    //       name: "SpringerLink",
+    //       desc: "link.springer.com"
+    //     },
+    //     {
+    //       url: "https://ieeexplore.ieee.org/Xplore/home.jsp",
+    //       name: "IEEE Xplore",
+    //       desc: "ieeexplore.ieee.org"
+    //     },
+    //     {
+    //       url: "https://www.engineeringvillage.com/",
+    //       name: "Engineering Village",
+    //       desc: "engineeringvillage"
+    //     },
+    //     {
+    //       url: "https://dl.acm.org/",
+    //       name: "ACM Digital Library",
+    //       desc: "dl.acm.org"
+    //     },
+    //     {
+    //       url: "https://www.sciencedirect.com",
+    //       name: "ScienceDirect",
+    //       desc: "www.sciencedirect.com"
+    //     },
+    //     {
+    //       url: "https://onlinelibrary.wiley.com",
+    //       name: "Wiley Online Library",
+    //       desc: "onlinelibrary.wiley.com"
+    //     },
+    //     {
+    //       url: "https://www.tandfonline.com",
+    //       name: "Taylor & Francis Online",
+    //       desc: "www.tandfonline.com"
+    //     },
+    //     {
+    //       url: "https://journals.sagepub.com",
+    //       name: "SAGE Journals",
+    //       desc: "journals.sagepub.com"
+    //     },
+    //     {
+    //       url: "https://www.ncbi.nlm.nih.gov",
+    //       name: "NCBI",
+    //       desc: "www.ncbi.nlm.nih.gov"
+    //     },
+    //   ]
+    // }
   ]
 }
 
