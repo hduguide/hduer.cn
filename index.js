@@ -90,7 +90,7 @@ const config = {
           desc: "pwd.hdu.edu.cn"
         },
         {
-          url: "http://newjw.hdu.edu.cn/",
+          url: "http://newjw.hdu.edu.cn/sso/driot4login",
           name: "选课系统(新)",
           desc: "newjw.hdu.edu.cn"
         },
