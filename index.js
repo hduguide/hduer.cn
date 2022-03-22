@@ -400,7 +400,7 @@ function getFavicon(url) {
  *  渲染模块函数
  */
 function renderIndex() {
-  const footer = el('footer', [], el('div', ['class="footer"'], 'Powered by' + el('a', ['class="ui label"', 'href="https://github.com/sleepwood/cf-worker-dir"', 'target="_blank"'], el('i', ['class="github icon"'], "") + 'Cf-Worker-Dir') + ' &copy; Base on ' + el('a', ['class="ui label"'], el('i', ['class="balance scale icon"'], "") + 'MIT License') + el('a', ['class="ui label"', 'href="https://beian.miit.gov.cn/"', 'target="_blank"'], "") + '浙ICP备2021038365号-1' ) ));
+  const footer = el('footer', [], el('div', ['class="footer"'], + el('a', ['class="ui label"', 'href="https://beian.miit.gov.cn/"', 'target="_blank"'],"") + '浙ICP备2021038365号-1'));
   return renderHeader() + renderMain() + footer;
 }
 
