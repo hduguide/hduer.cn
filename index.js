@@ -400,7 +400,7 @@ function getFavicon(url) {
  *  渲染模块函数
  */
 function renderIndex() {
-  const footer = el('footer', [], el('div', ['class="footer"'], + el('a', ['class="ui label"', 'href="https://beian.miit.gov.cn/"', 'target="_blank"'],"浙ICP备2021038365号-1") + '浙ICP备2021038365号-1'));
+  const footer = el('footer', [], el('a', ['href="https://beian.miit.gov.cn/"', 'target="_blank"'],'浙ICP备2021038365号-1'));
   return renderHeader() + renderMain() + footer;
 }
 
