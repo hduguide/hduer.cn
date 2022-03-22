@@ -489,6 +489,7 @@ function renderHTML(index, seller) {
             $('#seller').modal('show');
         });
       </script>
+      <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2021038365号-1</a>
     </body>
     </html>`
 }
