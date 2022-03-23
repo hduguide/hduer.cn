@@ -2,8 +2,8 @@
  *  自定义网站配置 
  */
 const config = {
-  title: "HDU导航",                  //write your website title
-  subtitle: "杭电导航 | HDUER.CN",   //write your website subtitle
+  title: "学习资料存储",                  //write your website title
+  subtitle: "学习资料存储 | HDUER.CN",   //write your website subtitle
   logo_icon: "houzz",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: true,                   //use hitokoto or not
   search: false,                    //enable search function
